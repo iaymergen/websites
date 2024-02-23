@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+
+    font-size: 10px;
+}
+
+
+body{
+    
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.6rem;
+    color: #f2f2f2;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #343434;
+    
+}
+
+a{
+    text-decoration: none;
+
+}
+
+p{
+    padding: 1.6rem 0;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+header{
+    height: 46rem;
+}
+
+header .bg-image{
+    position: absolute;
+    background-image: url(images/pexels-jessica-lewis-creative-593322.jpg);
+    background-size: cover;
+    background-color: #343434;
+    background-position: center;
+    height: 46rem;
+    width: 100%;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+header h1{
+    padding: 12rem;
+    padding-bottom: 0;
+
+}
+
+.btn{
+    display: inline-block;
+    background-color: #343434;
+    color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 7px;
+    padding: 1.2rem 2.4rem;
+    margin: .5rem 0;
+    transition: all 0.4s;
+    opacity: 0.85;
+}
+
+.btn:hover{
+    background-color: #111111;
+    color: #D0D0D0;
+    border: 1px solid #bebebe;
+    
+}
+
+#section-a{
+    background-color: #BEBEBE;
+    color: #343434;
+    padding: 3.2rem 0;
+}
+
+#section-b{
+    padding: 2rem;
+}
+
+#section-b ul{
+    list-style: none;
+}
+
+#section-b li{
+    background-color: #bebebe;
+    color: #343434;
+    margin-bottom: 1.5rem;
+    border-radius: 1.5rem;
+    
+}
+
+#section-c{
+    background-color: #BEBEBE;
+    color: #343434;
+    padding: 5rem;
+}
+
+#section-d .box{
+    padding: 5rem;
+}
+
+#section-d .box:first-child{
+    background-color: #9C9C9C;
+}
+
+
+.col-content{
+    padding: 1.5rem;
+
+}
+
+footer{
+    padding: 2rem;
+    background-color: #232323;
+}
+
+footer a{
+    color: #AEBAB1;
+}
